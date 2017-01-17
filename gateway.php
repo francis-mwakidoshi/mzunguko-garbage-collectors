@@ -7,14 +7,14 @@ require_once('smsclass.php');
 require_once('smsclass.php');
 // Specify your login credentials
 $username   = "mwakidoshi";
-$apikey     = "5db1c2ae9a1aad462a9ac2e37775e5d522ba3d6d05576c8797ec5e36e9b16fbb";
+$apikey     = "50981d4c01bdd6dbcd58e858715b8e94069d75d9819d77f5c46940029de5958d";
 // Specify the numbers that you want to send to in a comma-separated list
 // Please ensure you include the country code (+254 for Kenya in this case)
 $recipients = "+254708009360,+254716097939";
 // And of course we want our recipients to know what we really do
-$message    = "hellow, kindly report to estate a, b and c for gabage collection thankn you";
+$message    = "hellow, kindly report to estate a, b and c for gabage collection thankyou";
 // Create a new instance of our awesome gateway class
-$gateway    = new AfricasTalkingGateway($username, $apikey);
+$gateway    = new AfricasTalkingGateway($username, $apikey,"sandbox");
 // Any gateway error will be captured by our custom Exception class below,
 // so wrap the call in a try-catch block
 try
