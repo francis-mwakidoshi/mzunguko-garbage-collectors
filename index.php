@@ -30,10 +30,6 @@
           <li><a href="#">Services</a></li>
           <li><a href="#">List of Garbage Collectors</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
       </div>
     </nav>
   <h1 style="text-align:center;">Garbage Collector Admin Panel</h1>
@@ -47,7 +43,7 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner" role="listbox" style="background-color:blank;">
     <div class="item active">
       <img src="images/b.jpg" alt="Chania">
     </div>
@@ -78,7 +74,7 @@
 <br />
   <p style="font-size:27px">Please notify one of our garbage collector by clicking the button below.</p>
   <div class="col_3">
-          <a href="http://localhost/portal/gateway.php"><button> Notify Garbage Collector</button></a>
+          <a href="http://localhost/mzunguko-garbage-collectors/gateway.php"><button> Notify Garbage Collector</button></a>
 
         </div>
 </div>
